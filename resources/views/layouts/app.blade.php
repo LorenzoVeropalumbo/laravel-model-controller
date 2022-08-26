@@ -7,6 +7,8 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <main>
+    @yield('main_content')
+  </main>  
 </body>
 </html>
