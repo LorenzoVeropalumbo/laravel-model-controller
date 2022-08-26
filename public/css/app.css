@@ -1,0 +1,75 @@
+@import url(https://fonts.googleapis.com/css2?family=Silkscreen&display=swap);@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap);* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.header-container {
+  height: 80px;
+  background-color: red;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-weight: 600;
+  padding: 0 18px;
+}
+.header-container h1 {
+  font-family: "Silkscreen", cursive;
+  font-size: 54px;
+}
+.header-container .navbar-menu {
+  display: flex;
+}
+.header-container .navbar-menu li {
+  padding: 10px 18px;
+}
+.header-container .navbar-menu li.current {
+  background-color: white;
+  color: red;
+}
+.header-container .login-menu {
+  display: flex;
+}
+.header-container .login-menu li {
+  padding: 10px 8px;
+}
+
+.main-film-section {
+  padding: 40px 20px;
+  font-size: 18px;
+}
+.main-film-section h2 {
+  text-transform: uppercase;
+  background-color: red;
+  display: inline;
+  padding: 8px 20px;
+  color: white;
+}
+.main-film-section .card-container {
+  display: flex;
+  overflow-x: auto;
+}
+.main-film-section .card-container .card {
+  padding: 30px 60px;
+  margin-right: 20px;
+  margin-block: 20px;
+  border: 1px solid red;
+  flex-shrink: 0;
+}
+.main-film-section .card-container .card span {
+  display: block;
+}
