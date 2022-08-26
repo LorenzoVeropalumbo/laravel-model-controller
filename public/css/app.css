@@ -17,6 +17,11 @@ img {
   display: block;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .header-container {
   height: 80px;
   background-color: red;
@@ -52,24 +57,30 @@ img {
   padding: 40px 20px;
   font-size: 18px;
 }
-.main-film-section h2 {
+.main-film-section .film-type-section {
+  padding-block: 0 50px;
+}
+.main-film-section .film-type-section h2 {
   text-transform: uppercase;
   background-color: red;
   display: inline;
   padding: 8px 20px;
   color: white;
 }
-.main-film-section .card-container {
+.main-film-section .film-type-section .card-container {
   display: flex;
   overflow-x: auto;
 }
-.main-film-section .card-container .card {
+.main-film-section .film-type-section .card-container .card {
   padding: 30px 60px;
   margin-right: 20px;
-  margin-block: 20px;
+  margin-block: 20px 15px;
   border: 1px solid red;
   flex-shrink: 0;
+  text-align: center;
+  width: 500px;
 }
-.main-film-section .card-container .card span {
+.main-film-section .film-type-section .card-container .card span {
   display: block;
+  text-transform: capitalize;
 }

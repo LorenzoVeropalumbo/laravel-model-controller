@@ -13,4 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@home');
+Route::get('/', 'HomeController@film')->name('home');
+Route::get('/serie', 'HomeController@serie')->name('serie');
+Route::get('/anime', 'HomeController@film')->name('anime');
+Route::get('/get_premium', 'HomeController@film')->name('get_premium');
+

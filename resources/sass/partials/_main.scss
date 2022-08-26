@@ -2,29 +2,39 @@
   padding: 40px 20px;
   font-size: 18px;
 
-  h2{
-    text-transform: uppercase;
-    background-color: red;
-    display: inline;
-    padding: 8px 20px;
-    color: white;
-  }
+  .film-type-section{
 
-  .card-container{
-    display: flex; 
-    overflow-x: auto;
+    padding-block: 0 50px;
 
-    .card{
-      padding: 30px 60px;
-      margin-right: 20px;
-      margin-block: 20px;
-      border: 1px solid red;
-      flex-shrink: 0;
+    h2{
+      text-transform: uppercase;
+      background-color: red;
+      display: inline;
+      padding: 8px 20px;
+      color: white;
+    }
 
-      span{
-        display: block;
+    .card-container{
+      display: flex; 
+      overflow-x: auto;
+
+      .card{
+        padding: 30px 60px;
+        margin-right: 20px;
+        margin-block: 20px 15px;
+        border: 1px solid red;
+        flex-shrink: 0;
+        text-align: center;
+        width: 500px;
+
+        span{
+          display: block;
+          text-transform: capitalize;
+        }
       }
     }
   }
+
+  
   
 }
